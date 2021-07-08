@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'BankApp';
+  option = 'Contacts';
+
+  onTabClick(opt: string){
+    this.option = opt;
+    console.log("hello");
+  }
 }

@@ -1,0 +1,39 @@
+@import url("../../assets/font-awesome/css/font-awesome.min.css");
+
+.contactDiv{
+    background-image: url("../../assets/backgroung.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.parentCard{
+    width: 50rem;
+    height: 26rem;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.childCard{
+    height: 14rem;
+    background-color: rgba(252, 252, 252, 0.5) !important;
+}
+
+.contactIcons{
+    font-size: 50px;
+    color:#FFC312;
+    
+}
+
+.contactIcons:hover{
+    color: white;
+    cursor: pointer;
+}
+
+p:hover{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+

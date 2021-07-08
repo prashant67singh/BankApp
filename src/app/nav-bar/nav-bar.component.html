@@ -1,0 +1,23 @@
+<div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand h1" href="#">DemoBank</a>
+          <div class="float-end">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link" [ngClass]="{'active': option ==='Home'}">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="onNoticeClick()" [ngClass]="{'active': option ==='Notice'}">Notice</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="onContactClick()" [ngClass]="{'active': option ==='Contacts'}">Contacts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link" (click)="onLogin()" [ngClass]="{'active': option ==='Login'}">Login</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+    </nav>
+</div>
